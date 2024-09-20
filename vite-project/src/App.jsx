@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './assets/style/css/style.css'
+import Footer from './footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
@@ -20,17 +20,34 @@ function App() {
           </nav>
           <h1>Leasing From D&M</h1>
           <button>FIND A CAR</button>
+          <div className="panorama">
+            <div className="imageNumber"></div>
+            <div className="imageNumber"></div>
+            <div className="imageNumber"></div>
+            <div className="imageNumber"></div>
+          </div>
         </section>
       </header>
       <main>
-        <section className="section"></section>
-        <section className="section"></section>
-        <section className="section"></section>
-        <section className="section"></section>
+        <section>
+          <div>
+            
+          </div>
+          <div>
+            <h2>Why Lease with D&M?</h2>
+          </div>
+          <div>
+            <h2>How Does Leasing Work?</h2>
+          </div>
+          <div>
+          <h2>WELCOME TO D&M LEASING</h2>
+          </div>
+          <div>
+            <h2>Important Things to Consider</h2>
+          </div>
+        </section>
       </main>
-      <footer>
-
-      </footer>
+      <Footer />
     </>
   )
 }
