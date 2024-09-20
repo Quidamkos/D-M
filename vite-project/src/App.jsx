@@ -1,33 +1,36 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import './assets/style/css/style.css'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header>
+        <section className='header-content'>
+          <nav>
+            <p>logo</p>
+            <ul>
+              <li>NEW CARS</li>
+              <li>PRE-OWNED CARS</li>
+              <li>FINANCE</li>
+              <li>LEASE VS BUY</li>
+              <li>CONTACT US</li>
+            </ul>
+          </nav>
+          <h1>Leasing From D&M</h1>
+          <button>FIND A CAR</button>
+        </section>
+      </header>
+      <main>
+        <section className="section"></section>
+        <section className="section"></section>
+        <section className="section"></section>
+        <section className="section"></section>
+      </main>
+      <footer>
+
+      </footer>
     </>
   )
 }

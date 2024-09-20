@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
+
+section {
+    width: min(100%, 1200px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: min(100%, 1200px);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
